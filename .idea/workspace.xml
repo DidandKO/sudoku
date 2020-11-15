@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40131f41-c7f4-41fa-a832-386153a6c694" name="Default Changelist" comment="">
+    <list default="true" id="40131f41-c7f4-41fa-a832-386153a6c694" name="Default Changelist" comment="from game to validator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -62,7 +62,16 @@
       <workItem from="1602103012894" duration="1805000" />
       <workItem from="1602104834453" duration="48000" />
       <workItem from="1602143754587" duration="12021000" />
+      <workItem from="1605442416028" duration="1541000" />
     </task>
+    <task id="LOCAL-00001" summary="from game to validator">
+      <created>1602609118460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602609118460</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +87,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="from game to validator" />
+    <option name="LAST_COMMIT_MESSAGE" value="from game to validator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="784" y="369" key="#Notifications" timestamp="1602143782535">
@@ -88,6 +102,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602171307313" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602609141099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602609141099" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602608717498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

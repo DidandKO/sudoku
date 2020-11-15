@@ -17,6 +17,16 @@ function dataToArray(_data) {
     return _data_arr
 }
 
+function generateRandomSudoku()
+{
+    let grs = "";
+    for (let i = 0; i < 81; i++)
+    {
+        grs += Math.floor(Math.random()*10).toString()
+    }
+    return grs
+}
+
 const easy = "185329174971485326234761859362574981549618732718293465823946517197852643456137298";
     //;
 
@@ -31,9 +41,13 @@ const hard = //"-1-5-------97-42----5----7-5---3---7-6--2-41---8--5---1-4------2
 "712583694639714258845269173521436987367928415498175326184697532253841769976352841";
 const hard_arr = dataToArray(hard);
 
+let random_sudoku = generateRandomSudoku();
+let rs_arr = dataToArray(random_sudoku);
+
 console.log(easy_arr);
 console.log(medium_arr);
 console.log(hard_arr);
+console.log(rs_arr);
 
 //Create var
 
@@ -46,15 +60,10 @@ function startGame(){
     //Choose board difficulty
     if (id("diff-1").checked) board = easy_arr;
     else if (id("diff-2").checked) board = medium_arr;
-    else board = hard_arr;
+    else if (id("diff-3").checked) board = hard_arr;
+    else board = rs_arr
     // Create board based on difficulty
     generateBoard(board);
-    // Set theme based on input
-    if (id("theme-1").checked) {
-        qs("body").classList.remove("dark");
-    } else {
-        qs("body").classList.add("dark");
-    }
 }
 
 function generateBoard(_board) {
@@ -84,7 +93,11 @@ function generateBoard(_board) {
     }
     if (checkCorrect(_board)) {
         id("info").textContent = "Судоку!"
-    } else id("info").textContent = "Что-то не так"
+    }
+    else
+    {
+        id("info").textContent = "Что-то не так"
+    }
 }
 
 function checkCorrect(_board) {
@@ -98,15 +111,18 @@ function checkCorrect(_board) {
                 seen.add(current_val + " in line " + j)
                 seen.add(current_val + " in colomn " + i)
                 seen.add(current_val + " in cell " + Math.floor(j / 3) + '-' + Math.floor(i / 3))
-                if (len+3 != seen.size) return false
-                else len+=3
+                if (len+3 != seen.size)
+                {
+                    return false
+                }
+                else {
+                    len+=3
+                    }
                 }
             }
-
-
         }
     return true
-    }
+}
 
 
 function clearPrevious() {
