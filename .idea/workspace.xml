@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40131f41-c7f4-41fa-a832-386153a6c694" name="Default Changelist" comment="from game to validator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +61,7 @@
       <workItem from="1602104834453" duration="48000" />
       <workItem from="1602143754587" duration="12021000" />
       <workItem from="1605442416028" duration="1541000" />
+      <workItem from="1606294909800" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="from game to validator">
       <created>1602609118460</created>
